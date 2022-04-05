@@ -64,7 +64,7 @@
   color: #007bff;
 }
 .banner{
-  background: url("image/banner.png") no-repeat;
+  background: url("banner.png") no-repeat;
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -79,7 +79,7 @@
     margin-right: 10px;
 }
 .frm{
-    background-image: url("image/cover.jpg");
+    background-image: url("cover.jpg");
     text-align: center;
     align-items: center;
 }
