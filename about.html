@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Top_it_solution</title>
+        <link rel="icon" href="image/logo.png">
+        <link rel="stylesheet" href="about.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+    <body>
+      <nav class="navbar">
+        <div class="content">
+          <div class="logo">
+            <a href="index.html">ToP IT SolutioN</a>
+          </div>
+          <ul class="menu-list">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+            <li><a href="index.html">Нүүр хуудас</a></li>
+            <li><a href="about.html">Бидний тухай</a></li>
+            <li><a href="https://www.facebook.com/Top-it-solution-103530398988274/?ref=pages_you_manage">Facebook</a></li>
+            <li><a href="https://www.instagram.com/top_it_solution/">Instagram</a></li>
+          </ul>
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+      <form>
+          <img width="100%" height="100%" src="image/cover.jpg">
+      </form>
+      <div class="box">
+        <h1>Top it solution клуб</h1>
+        <p>
+          Бидний зорилго:<br>
+          1.Тэмцээн уралдаанд цахим болон танхимаар оролцох мөн зохион байгуулах.<br>
+          2.Хамтдаа суралцаж, бусдыг манлайлах.<br>
+          3.Ирээдүйн удирдагч залуусын суурийг тавих.<br>
+          Үйл ажиллагаа:<br>
+          1.Mentor-уудтай уулзалт хийх.<br>
+          2.Цахим спортын төрлөөр тэмцээн зохион байгуулах.<br>
+          3.Web-site, application бүтээх.<br>
+          Та бидэнтэй нэгдсэнээр:<br>
+          1.Программчлалын хэл хамтдаа суралцаж шилдэг хөгжүүлэгч болно.<br>
+          2.HTML, CSS, JS, python хэлийг суралцан таны амжилт нэгээр нэмэгдэнэ.<br>
+          3.Бодит төсөл дээр ажиллана. <br>
+          Бидэнтэй нэгдэхийг хүсвэл:<br>
+          ⦁	48-р сургууль №221 ирж уулзах <br>
+          ⦁	top_it_solution instagram хаягаар холбогдон асуулт бөглөх<br>
+          ⦁	Холбогдох утас: 90250251 
+          Клуб удирдсан багш: Б.Даваажав Клуб удирдлага: Э.Батхишиг<br>
+          Асуулт бөглөх холбоос:<br>
+     <a href="https://forms.gle/9eW3nv9Xuo7FfpZ38">Google forms</a>
+          </p>
+          <p>энэ хэсэгт гоё юм бодож байгаад бичнээ &#128516; &#128151;</p>
+      </div>
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>
+</body>
+</html>
