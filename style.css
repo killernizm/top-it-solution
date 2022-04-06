@@ -129,3 +129,16 @@ input[type="checkbox"]{
 .pp{
     margin-left: 10%;
 }
+.site{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgba(85, 84, 84, 0.801);
+}
+.t1{
+  color: #fff;
+  padding-left: 5%;
+}
+.t1 p{
+  color: rgba(202, 199, 199, 0.459);
+}
