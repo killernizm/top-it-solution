@@ -115,6 +115,12 @@ input[type="checkbox"]{
   font-weight: 700;
 }
 /* catagory duusaw */
+.site{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgba(85, 84, 84, 0.801);
+}
 .les1{
     margin-top: 5px;
     margin-bottom: 5px;
