@@ -127,6 +127,23 @@ input[type="checkbox"]{
     padding-left: 10%;
     color: #fff;
 }
-.les1v{
-    margin-left: 30px ;
+
+/* FIle */
+
+.download-btn{
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+.download{
+  padding-left: 20%;
+  padding-top: 25px;
+  margin: 10px;
 }
