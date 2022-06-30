@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
    <head>
       <meta charset="utf-8">
-      <title>Top IT solutioN</title>
+      <title>Top IT solution 2.0</title>
       <link rel="icon" href="logo.png">
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -18,70 +18,50 @@
          <i class="fas fa-bars"></i>
          </label>
          <ul>
-            <li><a class="active" href="index.html">Эхлэл</a></li>
-            <li><a href="about.html">Бидний тухай</a></li>
-            <li><a href="work.html">Үйл ажилгаа</a></li>
-            <li><a href="lesson.html">Хичээл</a></li>
-            <li><a href="https://www.facebook.com/Top-it-solution-103530398988274/">Facebook</a></li>
+            <li><a class="active" href="#">Нүүр хуудас</a></li>
+            <li><a href="#">Бидний тухай</a></li>
+            <li><a href="#">Зохион байгуулсан үйл ажилгаа</a></li>
+            <li><a href="https://www.facebook.com/Top-IT-solutioN-103530398988274">Facebook</a></li>
             <li><a href="https://www.instagram.com/top_it_solution/">Instagram</a></li>
          </ul>
       </nav>
       <div class="content">
+         <div>
+            Номун академийн дэргэдэх харилцаа холбоо мэдээлэл технологийн аюулгүй байдлийн клуб.
+         </div>
+         <div>
+            "Монголын анхны ерөнхий боловсролын IT клуб."
+         </div>
       </div>
-      <header class="header">
-      </header>
-      <div class="t1">
-         <h1>Манай клубын гишүүд:</h1>
-         <p>Зураг дээр даран илүү их мэдээлэл харах боломжтой.</p>
-      </div>
-      <div class="pp">
+       <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
 
-        <a href="https://sites.google.com/view/it-azzaya/"><img class="zurag" src="azzaya.png"></a>
-        <a href="https://sites.google.com/view/itbat-orgil/"><img class="zurag" src="bat-orgil.png"></a>
-        <a href="https://sites.google.com/view/itbathishig/"><img class="zurag" src="bathishig.png"></a>
-        <a href="https://sites.google.com/view/itbumanbayr/"><img class="zurag" src="bumanbayr.png"></a>
-        <a href="https://sites.google.com/view/itbazargur/"><img class="zurag" src="Bazargur.png"></a>
-        <a href="https://sites.google.com/view/itchinzorig/"><img class="zurag" src="chinzoo.png"></a>
-        <a href="https://sites.google.com/view/itegshiglen/"><img class="zurag" src="egshiglen.png"></a>
-        <a href="https://sites.google.com/view/it-enerel/"><img class="zurag" src="enerel.png"></a>
-        <a href="https://sites.google.com/view/it-erka/"><img class="zurag" src="erke.png"></a>
-        <a href="https://sites.google.com/view/it-misheel/"><img class="zurag" src="misheel.png"></a>
-        <a href="https://sites.google.com/view/it-munhdulguun/"><img class="zurag" src="monhdulguun.png"></a>
-        <a href="https://sites.google.com/view/it-nomio/"><img class="zurag" src="nomin-erdene.png"></a>
-        <a href="https://sites.google.com/view/it-sanchka/"><img class="zurag" src="sanchirmaa.png"></a>
-        <a href="https://sites.google.com/view/it-temuujin/"><img class="zurag" src="temuujin.png"></a>
-        <a href="https://sites.google.com/view/it-temuul/"><img class="zurag" src="temuul.png"></a>
-        <a href="https://sites.google.com/view/it-tsolmon/"><img class="zurag" src="tsolmon.png"></a>
-        <a href="https://sites.google.com/view/it-uurtsaih/"><img class="zurag" src="uurtsaih.png"></a>
-        <a href="https://sites.google.com/view/it-davaasuren/"><img class="zurag" src="davaasuren.jpg"></a>
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
 
-    </div>
-    <div>
-      <p class="site">site-ийг хөгжүүлсэн club-ын admin Batkhishig.</p>
-      <a>
-         <img src="https://hitwebcounter.com/counter/counter.php?page=7974757&style=0009&nbdigits=8&type=page&initCount=127" title="Free Counter" Alt="web counter"></a>              
-    </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">дээш <br> очих</button>
     <script>
-      //Get the button
-      var mybutton = document.getElementById("myBtn");
-      
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function() {scrollFunction()};
-      
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-      
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-      </script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "103530398988274");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
    </body>
 </html>
